@@ -1,0 +1,17 @@
+{
+  "name": "query-tube",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.78.1"
+  },
+  "type": "module"
+}

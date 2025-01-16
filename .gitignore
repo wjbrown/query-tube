@@ -1,0 +1,54 @@
+transcripts
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.test
+.env.production
+
+# Logs
+logs
+*.log
+*.log.*
+/logs
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Dependency directories
+jspm_packages/
+
+# IDE/Editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage reports
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# TypeScript
+*.tsbuildinfo
+
+# Package manager lock files (optional, if you don't want to version them)
+# Uncomment if you prefer not to commit the lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
