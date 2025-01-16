@@ -1,5 +1,3 @@
-# query-tube
-
 # Install & Setup
 
 ```pwsh
