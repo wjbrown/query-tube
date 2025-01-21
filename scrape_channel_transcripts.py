@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 import scrapetube
 from youtube_transcript_api import YouTubeTranscriptApi
+import json
 
 load_dotenv()
 
@@ -15,7 +16,7 @@ def save_transcript(video_id, directory, prefix):
         transcript = YouTubeTranscriptApi.get_transcript(video_id)
         file_path = os.path.join(directory, f"{prefix}_{video_id}.json")
         with open(file_path, "w") as f:
-            f.write(str(transcript))  # Save transcript as JSON
+            json.dump(transcript, f)  # Use json.dump instead of str()
         print(f"Transcript saved for {video_id} at {file_path}")
     except Exception as e:
         print(f"Could not retrieve transcript for {video_id}: {e}")
