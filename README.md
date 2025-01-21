@@ -1,4 +1,8 @@
-# query-tube
+This repo is a patched together way to use AI to query a youtube channel. Put simply, it:
+
+1. pulls a list of video transcripts from a youtube channel
+2. loads those transcripts into a pinecone vector db
+3. when you ask a question, it finds related records from pinecone and shoves those into a chatgpt prompt with your original question
 
 # Install & Setup
 
