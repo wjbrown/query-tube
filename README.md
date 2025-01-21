@@ -31,11 +31,6 @@ Scrape the transcripts for the channel
 python scrape_channel_transcripts.py
 ```
 
-Convert the JSON from python format to javascript format
-```pwsh
-node pyJson2JsJson.js {path_to_transcripts}
-```
-
 Delete the current vector database (optional)
 ```pwsh
 node pinecone.js delete
